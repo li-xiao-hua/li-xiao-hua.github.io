@@ -1,2 +1,2 @@
-# 欢迎访问我的主页: li-xiao-hua.github.io
-# Welcome to my homepage: li-xiao-hua.github.io
+# 欢迎访问我的主页: [李晓华](https://li-xiao-hua.github.io/)
+# Welcome to my homepage: [Li-Xiao-Hua](https://li-xiao-hua.github.io/)
