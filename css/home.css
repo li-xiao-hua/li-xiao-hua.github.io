@@ -1,0 +1,446 @@
+.headline {
+	width: 1000px;
+	height: 36px;
+	background: #666;
+	color: #ffffff;
+	text-indent: 60px;
+	font-size: 17px !important;
+	font-family: Arimo, sans-serif;
+	font: bold 33px "Open Sans", sans-serif;
+}
+
+.headline a {
+	color: #FFFFFF;
+	position: relative;
+	top: 6px;
+}
+
+.container {
+	width: 1000px;
+	background: #FFFFFF;
+}
+
+.header {
+	width: 900px;
+	margin: 0 auto;
+	height: 60px;
+	border-bottom: #ebebeb solid 1px;
+}
+
+.main-content {
+	padding-top: 36px;
+	width: 900px;
+	margin: 0 auto;
+}
+
+.header-nav li {
+	cursor: pointer;
+	list-style: none;
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+a {
+	color: #005596;
+}
+
+.current {
+	border-bottom: #52a1d2 solid 2px;
+}
+
+.header-nav li:hover {
+	border-bottom: #52a1d2 solid 2px;
+}
+
+.layout-tile {
+	padding-top: 35px;
+	font-size: 28px;
+	padding-bottom: 10px;
+	text-indent: 30px;
+}
+
+.layout-content {
+	padding-top: 20px;
+}
+
+.layout-content img {
+	float: left;
+	margin-left: 20px;
+}
+
+.layout-content:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.layout-content-right {
+	width: 630px;
+	height: 220px;
+	float: left;
+	margin-left: 50px;
+}
+
+.font-min {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	display: inline-block;
+}
+
+.subheading {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #616161;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.verbalContent {
+	font-family: arial, sans-serif;
+	font-size: 17px;
+	max-height: 100%;
+	-webkit-text-size-adjust: none;
+}
+
+.footer {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	color: rgba(0, 0, 0, .7);
+	font-size: 14px;
+	text-align: center;
+	width: 100%;
+}
+
+.footer img {
+	width: 22px;
+	height: 22px;
+}
+
+
+/*发表*/
+
+.publications-content {
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+
+.list-content {
+	width: 900px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 40px;
+}
+
+.list-content img {
+	margin-left: 0px;
+}
+
+.list-left {
+	width: 80px;
+	text-align: center;
+	height: initial;
+}
+
+.list-right {
+	position: relative;
+	margin-left: 0px;
+}
+
+.list-words {
+	margin-left: 20px;
+	color: #444444;
+	width: 480px;
+}
+
+.list-content:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.list-font-bold {
+	color: rgb(68, 68, 68);
+	font-weight: bold;
+}
+
+.list-child {
+	margin-top: 30px;
+}
+
+.footer-cont {
+	width: 900px;
+	margin: 0 auto;
+	max-height:100%;
+	-webkit-text-size-adjust: none;
+}
+
+.footer-title {
+	color: #FFFFFF;
+	background: rgb(153, 153, 153);
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+
+
+/*简历*/
+
+.resume-title {
+	color: rgb(68, 68, 68);
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.resume-font {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.resume-cont {
+	margin-top: 15px;
+}
+
+.resume-cont:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.resume-year {
+	width: 175px;
+}
+
+.resume-length {
+	width: 250px;
+}
+
+.resume-subhead {
+	color: #222;
+	font: 600 19px "Open Sans", sans-serif;
+	margin-top: 50px;
+}
+
+.resume-ul li {
+	margin-left: 40px;
+	max-height: 100%;
+	-webkit-text-size-adjust: none;
+}
+
+.resume-bottom {
+	margin-bottom: 15px;
+}
+
+.layout-bottom {
+	padding-bottom: 40px;
+}
+
+
+/*详情*/
+
+.particulars-title {
+	text-align: center;
+	font-size: 23px;
+	margin-top: 10px;
+}
+
+.particulars-video {
+	
+	margin-top: 30px;
+}
+
+.particulars-detail {
+	text-align: center;
+	line-height: 30px;
+	color: grey;
+	font-size: 14px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.particulars-year {
+	text-align: center;
+	font-size: 13px;
+	color: grey;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.particulars-img {
+	margin-top: 40px;
+}
+
+.particulars-font {
+	margin-top: 21px;
+	font-size: 14px;
+	color: grey;
+}
+
+.particulars-bold {
+	color: #000000;
+}
+
+.underline {
+	padding-top: 30px;
+	border-bottom: #ebebeb solid 1px;
+}
+
+.particulars-subhead {
+	font-weight: bold;
+	color: #000000;
+	padding-top: 24px;
+}
+
+.contact-left {
+	width: 90px;
+}
+
+.contact-right {
+	color: grey;
+	font-size: 14px;
+}
+
+.contact-tile {
+	text-indent: 0px;
+	padding-bottom: 0px;
+}
+
+.contact-cont {
+	margin-top: 10px;
+}
+
+.contact-bottom {
+	padding-bottom: 140px;
+}
+
+.parti-ul li {
+	text-align: center;
+	list-style: none;
+	font-size: 14px;
+	height: 25px;
+	line-height: 25px;
+}
+
+.artifont {
+	font-style: normal;
+	position: absolute;
+	right: -6px;
+	color: grey;
+	top: -16px;
+	font-size: 12px;
+}
+
+.artifont1 {
+	font-style: normal;
+	position: absolute;
+	left: -7px;
+	color: grey;
+	top: -6px;
+	font-size: 12px;
+}
+
+.particulars-foot {
+	width: 750px;
+}
+
+.particulars-foot li {
+	width: 102px;
+	list-style: none;
+	float: left;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.particulars-foot:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.layout-bottom:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.particulars-foot li p a {
+	text-align: center;
+	overflow: hidden;
+	margin-top: 10px;
+	font-size: 13px;
+	width: 102px;
+	display: inline-block;
+}
+
+.bibtex-ul li {
+	list-style: none;
+}
+
+.bibtex-ul {
+	margin-left: 25px;
+	font-size: 14px;
+	color: grey;
+}
+
+.bibtex-li {
+	text-indent: 38px;
+}
+
+
+
+.resume-color {
+	color: grey;
+}
+
+.bibtex-span {
+	width: 100px;
+	display: inline-block;
+}
+
+.layout-left {
+	width: 400px;
+	float: left;
+}
+
+.layout-right {
+	float: left;
+	margin-left: 30px;
+}
+
+.layout-right img {
+	width: 120px;
+	height: 120px;
+	margin-left: 0px;
+}
+
+.layout-DingTalk {
+	width: 120px;
+	margin-left: 20px;
+	float: left;
+}
+
+.layout-center {
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+}
+
+.particulars-video-a {
+	text-align: center;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+.particulars-video-a a {
+	color: #000000;
+}
+.particularsVideo{max-width: 900px;text-align: center;}

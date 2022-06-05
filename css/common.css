@@ -1,0 +1,213 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+	margin: 0;
+	padding: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+	font-style: normal;
+}
+
+/*ul,
+ol {
+	list-style: none;
+}*/
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline !important;
+}
+
+fieldset,
+img {
+	border: 0;
+	vertical-align: middle
+}
+
+button,
+input,
+select,
+textarea {
+	font-size: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background: #eeeeee;
+	width: 100%;
+	overflow: auto;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.fa-left {
+	float: left;
+}
+
+.fa-right {
+	float: right;
+}
+
+/* 页面宽度 1000px */
+.box {
+	width: 1000px;
+	background-size: cover;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+
+/*页脚*/
+
+.footer-content {
+	width: 1190px;
+	margin: 0 auto;
+	padding: 45px 0px 25px 0px;
+}
+
+.footer-nav li {
+	font-size: 18px;
+	color: #FFFFFF;
+	float: left;
+	width: 100px;
+	border-right: #FFFFFF solid 2px;
+	text-align: center;
+}
+
+.footer-nav {
+	margin-left: 240px;
+}
+
+.footer-beian {
+	font-size: 14PX;
+	color: #999999;
+	margin-top: 30PX;
+	text-align: center;
+}
+
+.footer-banquan {
+	font-size: 14PX;
+	color: #999999;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.footer-chengse {
+	background: #ff7f00;
+	height: 20px;
+}
+
+.footer-nav a {
+	color: #FFFFFF;
+}
+
+
+/*头部*/
+
+
+.nav {
+	width: 1190px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	width: 192px;
+	height: 64px;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+}
+
+.nav-1 {
+	float: right;
+	width: 120px;
+	height: 96px;
+	text-align: center;
+	line-height: 133px;
+}
+
+.nav-1 a {
+	color: #323333;
+	font-size: 24px;
+	width: 120px;
+	display: block;
+	height: 97px;
+}
+
+.nav-2 {
+	margin-right: 20px;
+}
+
+.nav-4 {
+	margin-right: 20px;
+}
+
+.nav-right {
+	margin-right: 50px;
+}
+
+.nav-1:hover a {
+	color: #FF7F00;
+	border-bottom: #FF7F00 solid 4px;
+}
