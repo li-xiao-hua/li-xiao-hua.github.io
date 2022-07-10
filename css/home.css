@@ -40,8 +40,8 @@
 	height: 60px;
 	line-height: 60px;
 	font-size: 14px;
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
 }
 
 a {
@@ -54,6 +54,7 @@ a {
 
 .header-nav li:hover {
 	border-bottom: #52a1d2 solid 2px;
+	/* font-size: 16px; */
 }
 
 .layout-tile {
@@ -215,7 +216,7 @@ a {
 }
 
 .resume-year {
-	width: 175px;
+	width: 165px;
 }
 
 .resume-length {
