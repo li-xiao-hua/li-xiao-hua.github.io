@@ -102,6 +102,7 @@ body {
 
 .fa-left {
 	float: left;
+	width: 720px;
 }
 
 .fa-right {
