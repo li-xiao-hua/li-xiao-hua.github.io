@@ -395,7 +395,7 @@ a {
 .footer-cont {
 	width: 900px;
 	margin: 0 auto;
-	max-height:100%;
+	max-height: 100%;
 	-webkit-text-size-adjust: none;
 }
 
@@ -473,7 +473,7 @@ a {
 }
 
 .particulars-video {
-	
+
 	margin-top: 30px;
 }
 
@@ -664,26 +664,40 @@ a {
 .particulars-video-a a {
 	color: #000000;
 }
-.particularsVideo{max-width: 900px;text-align: center;}
+
+.particularsVideo {
+	max-width: 900px;
+	text-align: center;
+}
 
 .sign_platforms {
-    margin-top: 15px;
-    border-collapse: collapse;
-    box-sizing: border-box;
-    width: 100%;
+	margin-top: 15px;
+	border-collapse: collapse;
+	box-sizing: border-box;
+	width: 100%;
 }
 
 
 tbody {
-    display: table-row-group;
-    vertical-align: middle;
+	display: table-row-group;
+	vertical-align: middle;
 }
 
-td, th {
-    width: 86px;
-    padding: 2px;
-    line-height: 1.5;
-    vertical-align: middle;
-    border: 1px solid #EEE;
-    text-align: center;
+td,
+th {
+	width: 86px;
+	padding: 2px;
+	line-height: 1.5;
+	vertical-align: middle;
+	border: 1px solid #EEE;
+	text-align: center;
+}
+
+
+.recent_news {
+	margin-left: 20px;
+}
+
+.recent_news li {
+	margin-top: 10px;
 }
