@@ -225,7 +225,7 @@ body {
 	/* margin-bottom: 5px; */
 	/* width: 1000px; */
 	/* height: 36px; */
-	background: #888;
+	background: #DDD;
 	color: #FFF;
 	padding: 20px 200px;
 }
@@ -256,6 +256,8 @@ body {
 
 .site h2 {
 	margin-top: 10px;
+	font-size: 20px;
+	color: #333;
 }
 
 
@@ -264,7 +266,7 @@ body {
 	height: 50px;
 	background: #888;
 	color: #FFF;
-	text-indent: 60px;
+	/* text-indent: 60px; */
 	/* font-size: 17px !important; */
 	font-family: Arimo, sans-serif;
 	font: bold 33px "Open Sans", sans-serif;
