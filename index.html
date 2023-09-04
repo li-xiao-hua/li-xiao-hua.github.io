@@ -1,125 +1,692 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 
 	<head>
 		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content=" IE=9;IE=8;IE=7;IE=EDGE">
-		<title>李晓华・Python・数据分析・人工智能</title>
-		<link rel="shortcut icon" href="./images/index/favicon.ico" type="image/x-icon" />
-		<link rel="stylesheet" href="css/home.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>李晓华 @ 技术蛙</title>
+		<link href="./bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="./styles.css">
 	</head>
 
 	<body>
-		<!-- 浮动窗口 -->
-		<div class="box" id="top">
-			<!-- 欢迎 -->
+		<!-- 导航部分 -->
+		<nav class="navbar navbar-expand-lg bg-primary text-light navbar-dark fixed-top">
+			<div class="container">
+				<!-- 左侧 logo -->
+				<a href="#" class="navbar-brand">技术蛙 · 顶呱呱</a>
+				<!-- 右侧折叠的菜单 -->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- 右侧展开的菜单 -->
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item active"><a href="#" class="nav-link">Python</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Web开发</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">爬虫</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">数据分析</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">机器学习</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">深度学习</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img1.png" alt="" width="100%">
-			</div>
+		<!-- 个人简介 -->
+		<section class="p-5 bg-secondary text-light">
+			<div class="container">
+				<div>
+					<h1 class="text-light"> <span style="border-bottom: 1px solid;">李晓华 · 金牌讲师</span></h1>
+					<div class="row">
+						<div class="col-lg-8 col-md-8">
+							<ul>
+								<li>
+									<p class="my-2" style="padding-top: 20px;"><span
+											class="fw-bold ">基本：</span>博士（Ph.D.）|
+										高级工程师（副教授级） | CTO
+									</p>
+								</li>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img2.png" alt="" width="100%">
-			</div>
+								<li>
+									<p class="my-2"><span class="fw-bold ">学术：</span>10+篇论文 | 15+项专利 | 10+个国家级课题</p>
+								</li>
+								<li>
+									<p class="my-2"><span class="fw-bold ">职业：</span>先后供职于外企（西门子）和央企（华润集团），现独立创业</p>
+								</li>
+								<li>
+									<p class="my-2"><span class="fw-bold ">专长：</span>Java | Python | Web | 爬虫 | 数据分析 |
+										机器学习
+										| 深度学习</p>
+								</li>
+								<li>
+									<p class="my-2"><span class="fw-bold ">培训：</span>每年培训学员2万人次（线上 + 线下）| 每年进行企业培训50余场
+									</p>
+								</li>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img3.png" alt="" width="100%">
+								<li>
+									<p class="my-2"><span class="fw-bold ">学会：</span>中国人工智能学会 · 会员 | 中国图象图形学会 · 会员 |
+										中国电子学会
+										· 会员 | 中国计算机学会 · 会员
+									</p>
+								</li>
+								<li>
+									<p class="my-2"><span class="fw-bold ">交流：</span>百度 · 人工智能布道师 | 百度 · 云智教育 · 金牌讲师 |
+										华为云 ·
+										MVP
+									</p>
+								</li>
+								<li>
+									<p class="my-2"><span class="fw-bold ">专家：</span>工信部 · 人工智能工程师认证 · 出题专家 | 人社部 ·
+										人工智能工程师认证 · 出题专家
+									</p>
+								</li>
+								<li>
+									<p class="my-2"><span
+											class="fw-bold ">合作：</span>138-1083-2668，chinapkulxh@pku.edu.cn
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="d-none d-md-block col-lg-4 col-md-4">
+							<figure class="figure">
+								<img src="./img/figure.png" class=" figure-img img-fluid rounded" alt="...">
+							</figure>
+						</div>
+					</div>
+				</div>
 			</div>
+		</section>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img4.png" alt="" width="100%">
-			</div>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img5.png" alt="" width="100%">
-			</div>
+		<!-- 自媒体 -->
+		<section class="p-5 bg-primary">
+			<div class="container">
+				<h2 class="text-center text-light">自媒体</h2>
+				<p class="lead text-center text-white mb-5">
+					免费体验和合作洽谈
+				</p>
+				<div class="row g-4">
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img6.png" alt="" width="100%">
-			</div>
+					<div class="col-md-4 col-lg-2">
+						<div class="card bg-light">
+							<div class="card-body text-center">
+								<img src="./img/01-man.jpeg" alt="" class="mb-3">
+								<h3 class="card-title">视频号</h3>
+								<p class="card-text">短视频</p>
+							</div>
+						</div>
+					</div>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img7.png" alt="" width="100%">
-			</div>
+					<div class="col-md-4 col-lg-2">
+						<div class="card bg-light">
+							<div class="card-body text-center">
+								<img src="./img/01-man.jpeg" alt="" class="mb-3">
+								<h3 class="card-title">抖音</h3>
+								<p class="card-text">短视频</p>
+							</div>
+						</div>
+					</div>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img8.png" alt="" width="100%">
-			</div>
+					<div class="col-md-4 col-lg-2">
+						<div class="card bg-light">
+							<div class="card-body text-center">
+								<img src="./img/02-man.jpeg" alt="" class="mb-3">
+								<h3 class="card-title">B站</h3>
+								<p class="card-text">长视频</p>
+							</div>
+						</div>
+					</div>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img9.png" alt="" width="100%">
-			</div>
+					<div class="col-md-4 col-lg-2">
+						<div class="card bg-light">
+							<div class="card-body text-center">
+								<img src="./img/02-man.jpeg" alt="" class="mb-3">
+								<h3 class="card-title">公众号</h3>
+								<p class="card-text">图文</p>
+							</div>
+						</div>
+					</div>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img10.png" alt="" width="100%">
+					<div class="col-md-4 col-lg-2">
+						<div class="card bg-light">
+							<div class="card-body text-center">
+								<img src="./img/03-man.jpeg" alt="" class="mb-3">
+								<h3 class="card-title">小鹅通</h3>
+								<p class="card-text">在线课程</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-2">
+						<div class="card bg-light">
+							<div class="card-body text-center">
+								<img src="./img/01-man.jpeg" alt="" class="mb-3">
+								<h3 class="card-title">微信</h3>
+								<p class="card-text">合作洽谈</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
+		</section>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img11.png" alt="" width="100%">
-			</div>
-			
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img110.png" alt="" width="100%">
-			</div>
-			
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img12.png" alt="" width="100%">
-			</div>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img13.png" alt="" width="100%">
-			</div>
+		<!-- 企业内训 -->
+		<section class="p-5 bg-secondary">
+			<div class="container">
+				<h2 class="text-center text-white">企业内训（部分案例）</h2>
+				<div class="accordion accordion-flush bg-secondary" id="accordionFlushExample">
+					<!-- 第 1 个 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#flush-collapse1">
+								2023.09 | 美国康宁公司 | 深度学习
+							</button>
+						</h2>
+						<div id="flush-collapse1" class="accordion-collapse collapse show"
+							data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">
+								<ul>
+									<li>
+										<span class="fw-bold">课程名称：</span>计算机视觉
+									</li>
+									<li>
+										<span class="fw-bold">课程时长：</span>4天
+									</li>
+									<li>
+										<span class="fw-bold">培训对象：</span>康宁中国各分公司全体技术人员
+									</li>
+									<li>
+										<span class="fw-bold">培训目标：</span>将深度学习技术引入实际工作中，优化流程，降本增效
+									</li>
+									<li>
+										<span class="fw-bold">核心内容：</span>深度学习基础，计算机视觉基础，图像分类任务，物体检测任务
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- 第 2 个 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#flush-collapse2">
+								2023.09 | 美国康宁公司 | 深度学习
+							</button>
+						</h2>
+						<div id="flush-collapse2" class="accordion-collapse collapse"
+							data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">
+								<ul>
+									<li>
+										<span class="fw-bold">课程名称：</span>计算机视觉
+									</li>
+									<li>
+										<span class="fw-bold">课程时长：</span>4天
+									</li>
+									<li>
+										<span class="fw-bold">培训对象：</span>康宁中国各分公司全体技术人员
+									</li>
+									<li>
+										<span class="fw-bold">培训目标：</span>将深度学习技术引入实际工作中，优化流程，降本增效
+									</li>
+									<li>
+										<span class="fw-bold">核心内容：</span>深度学习基础，计算机视觉基础，图像分类任务，物体检测任务
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img14.png" alt="" width="100%">
-			</div>
+					<!-- 第 3 个 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#flush-collapse3">
+								2023.09 | 美国康宁公司 | 深度学习
+							</button>
+						</h2>
+						<div id="flush-collapse3" class="accordion-collapse collapse"
+							data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">
+								<ul>
+									<li>
+										<span class="fw-bold">课程名称：</span>计算机视觉
+									</li>
+									<li>
+										<span class="fw-bold">课程时长：</span>4天
+									</li>
+									<li>
+										<span class="fw-bold">培训对象：</span>康宁中国各分公司全体技术人员
+									</li>
+									<li>
+										<span class="fw-bold">培训目标：</span>将深度学习技术引入实际工作中，优化流程，降本增效
+									</li>
+									<li>
+										<span class="fw-bold">核心内容：</span>深度学习基础，计算机视觉基础，图像分类任务，物体检测任务
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img15.png" alt="" width="100%">
-			</div>
+					<!-- 第 4 个 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#flush-collapse4">
+								2023.09 | 美国康宁公司 | 深度学习
+							</button>
+						</h2>
+						<div id="flush-collapse4" class="accordion-collapse collapse"
+							data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">
+								<ul>
+									<li>
+										<span class="fw-bold">课程名称：</span>计算机视觉
+									</li>
+									<li>
+										<span class="fw-bold">课程时长：</span>4天
+									</li>
+									<li>
+										<span class="fw-bold">培训对象：</span>康宁中国各分公司全体技术人员
+									</li>
+									<li>
+										<span class="fw-bold">培训目标：</span>将深度学习技术引入实际工作中，优化流程，降本增效
+									</li>
+									<li>
+										<span class="fw-bold">核心内容：</span>深度学习基础，计算机视觉基础，图像分类任务，物体检测任务
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img16.png" alt="" width="100%">
-			</div>
+					<!-- 第 5 个 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#flush-collapse5">
+								2023.09 | 美国康宁公司 | 深度学习
+							</button>
+						</h2>
+						<div id="flush-collapse5" class="accordion-collapse collapse"
+							data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">
+								<ul>
+									<li>
+										<span class="fw-bold">课程名称：</span>计算机视觉
+									</li>
+									<li>
+										<span class="fw-bold">课程时长：</span>4天
+									</li>
+									<li>
+										<span class="fw-bold">培训对象：</span>康宁中国各分公司全体技术人员
+									</li>
+									<li>
+										<span class="fw-bold">培训目标：</span>将深度学习技术引入实际工作中，优化流程，降本增效
+									</li>
+									<li>
+										<span class="fw-bold">核心内容：</span>深度学习基础，计算机视觉基础，图像分类任务，物体检测任务
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img17.png" alt="" width="100%">
-			</div>
+					<!-- 第 6 个 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#flush-collapse6">
+								2023.09 | 美国康宁公司 | 深度学习
+							</button>
+						</h2>
+						<div id="flush-collapse6" class="accordion-collapse collapse"
+							data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">
+								<ul>
+									<li>
+										<span class="fw-bold">课程名称：</span>计算机视觉
+									</li>
+									<li>
+										<span class="fw-bold">课程时长：</span>4天
+									</li>
+									<li>
+										<span class="fw-bold">培训对象：</span>康宁中国各分公司全体技术人员
+									</li>
+									<li>
+										<span class="fw-bold">培训目标：</span>将深度学习技术引入实际工作中，优化流程，降本增效
+									</li>
+									<li>
+										<span class="fw-bold">核心内容：</span>深度学习基础，计算机视觉基础，图像分类任务，物体检测任务
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img18.png" alt="" width="100%">
-			</div>
+					<!-- 第 7 个 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#flush-collapse7">
+								2023.09 | 美国康宁公司 | 深度学习
+							</button>
+						</h2>
+						<div id="flush-collapse7" class="accordion-collapse collapse"
+							data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">
+								<ul>
+									<li>
+										<span class="fw-bold">课程名称：</span>计算机视觉
+									</li>
+									<li>
+										<span class="fw-bold">课程时长：</span>4天
+									</li>
+									<li>
+										<span class="fw-bold">培训对象：</span>康宁中国各分公司全体技术人员
+									</li>
+									<li>
+										<span class="fw-bold">培训目标：</span>将深度学习技术引入实际工作中，优化流程，降本增效
+									</li>
+									<li>
+										<span class="fw-bold">核心内容：</span>深度学习基础，计算机视觉基础，图像分类任务，物体检测任务
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img19.png" alt="" width="100%">
-			</div>
+					<!-- 第 8 个 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#flush-collapse8">
+								2023.09 | 美国康宁公司 | 深度学习
+							</button>
+						</h2>
+						<div id="flush-collapse8" class="accordion-collapse collapse"
+							data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">
+								<ul>
+									<li>
+										<span class="fw-bold">课程名称：</span>计算机视觉
+									</li>
+									<li>
+										<span class="fw-bold">课程时长：</span>4天
+									</li>
+									<li>
+										<span class="fw-bold">培训对象：</span>康宁中国各分公司全体技术人员
+									</li>
+									<li>
+										<span class="fw-bold">培训目标：</span>将深度学习技术引入实际工作中，优化流程，降本增效
+									</li>
+									<li>
+										<span class="fw-bold">核心内容：</span>深度学习基础，计算机视觉基础，图像分类任务，物体检测任务
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img20.png" alt="" width="100%">
-			</div>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img21.png" alt="" width="100%">
+				</div>
 			</div>
+		</section>
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img22.png" alt="" width="100%">
-			</div>
+		<!-- Python 编程 -->
+		<section class="p-5 bg-primary">
+			<div class="container">
+				<h2 class="text-center text-white">Python 编程</h2>
+				<div class="accordion accordion-flush bg-secondary" id="pythonExample">
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img23.png" alt="" width="100%">
-			</div>
+					<!-- 1 课程大纲 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#flush-collapse-python-1">
+								2023 | 课程大纲
+							</button>
+						</h2>
+						<div id="flush-collapse-python-1" class="accordion-collapse collapse"
+							data-bs-parent="#pythonExample">
+							<div class="accordion-body">
 
-			<div style="margin-bottom: 10px;">
-				<img src="./content/img24.png" alt="" width="100%">
-			</div>
+								<table class="table  table-hover">
+									<thead>
+										<tr class="text-center bg-primary text-light">
+											<th scope="col">章节</th>
+											<th scope="col">主题</th>
+											<th scope="col">知识点</th>
+											<th scope="col">授课方法</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th scope="row">第1章第1节</th>
+											<td>Python开发环境的搭建</td>
+											<td>
+												<ol>
+													<li>下载和安装 Anaconda</li>
+													<li>下载和安装 PyCharm</li>
+													<li>下载和安装 VS Code</li>
+												</ol>
+											</td>
+											<td class="text-center">理论讲解 + 实操演示</td>
+										</tr>
 
-			<div class="footer" style="margin-top: 30px;font-weight: bold;">
-				<div style="padding-top: 10px;padding-bottom: 10px;border-top: #ebebeb solid 1px;">
-					Copyright ©
-					2013-2023 Li-Xiao-Hua All
-					Rights Reserved.</div>
+										<tr>
+											<th scope="row">第1章第2节</th>
+											<td>Python语言的特点</td>
+											<td>
+												<ol>
+													<li>Python语言的优势</li>
+													<li>Python语言的劣势</li>
+													<li>Python的应用场景</li>
+												</ol>
+											</td>
+											<td class="text-center">理论讲解 + 实操演示</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<!-- 2 免费课程 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#flush-collapse-python-2">
+								2023 | 免费课程
+							</button>
+						</h2>
+						<div id="flush-collapse-python-2" class="accordion-collapse collapse"
+							data-bs-parent="#pythonExample">
+							<div class="accordion-body">
+								<table class="table  table-hover">
+									<thead>
+										<tr class="text-center bg-primary text-light">
+											<th scope="col">编号</th>
+											<th scope="col">名称</th>
+											<th scope="col">费用</th>
+											<th scope="col">地址</th>
+										</tr>
+									</thead>
+									<tbody>
+										<!-- 第一门课 -->
+										<tr>
+											<th scope="row">1</th>
+											<td>1小时搞定Python入门</td>
+											<td>
+												0 元
+											</td>
+											<td>
+												<ol>
+													<li><a href="#" target="_blank">小鹅通</a></li>
+													<li><a href="#" target="_blank">51CTO</a></li>
+													<li><a href="#" target="_blank">CSDN</a></li>
+												</ol>
+											</td>
+										</tr>
+										<!-- 第二门课 -->
+										<tr>
+											<th scope="row">2</th>
+											<td>1小时搞定Python入门</td>
+											<td>
+												0 元
+											</td>
+											<td>
+												<ol>
+													<li><a href="#" target="_blank">小鹅通</a></li>
+													<li><a href="#" target="_blank">51CTO</a></li>
+													<li><a href="#" target="_blank">CSDN</a></li>
+												</ol>
+											</td>
+										</tr>
+
+
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<!-- 3 收费课程 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#flush-collapse-python-3">
+								2023 | 收费课程
+							</button>
+						</h2>
+						<div id="flush-collapse-python-3" class="accordion-collapse collapse"
+							data-bs-parent="#pythonExample">
+							<div class="accordion-body">
+								<table class="table  table-hover">
+									<thead>
+										<tr class="text-center bg-primary text-light">
+											<th scope="col">编号</th>
+											<th scope="col">名称</th>
+											<th scope="col">费用</th>
+											<th scope="col">地址</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th scope="row">1</th>
+											<td>1小时搞定Python入门</td>
+											<td>
+												199.0元
+											</td>
+											<td>
+												<ol>
+													<li><a href="#" target="_blank">小鹅通</a></li>
+													<li><a href="#" target="_blank">51CTO</a></li>
+													<li><a href="#" target="_blank">CSDN</a></li>
+												</ol>
+											</td>
+										</tr>
+
+										<tr>
+											<th scope="row">2</th>
+											<td>Python数据类型</td>
+											<td>
+												199元
+											</td>
+											<td>
+												<ol>
+													<li><a href="#" target="_blank">小鹅通</a></li>
+													<li><a href="#" target="_blank">51CTO</a></li>
+													<li><a href="#" target="_blank">CSDN</a></li>
+												</ol>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+
+					<!-- 4 其它资料 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#flush-collapse-python-4">
+								2023 | 其它资料
+							</button>
+						</h2>
+						<div id="flush-collapse-python-4" class="accordion-collapse collapse"
+							data-bs-parent="#pythonExample">
+							<div class="accordion-body">
+								<table class="table  table-hover">
+									<thead>
+										<tr class="text-center bg-primary text-light">
+											<th scope="col">编号</th>
+											<th scope="col">名称</th>
+											<th scope="col">地址</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th scope="row">1</th>
+											<td>1小时搞定Python入门</td>
+
+											<td>
+												<ol>
+													<li><a href="#" target="_blank">小鹅通</a></li>
+													<li><a href="#" target="_blank">51CTO</a></li>
+													<li><a href="#" target="_blank">CSDN</a></li>
+												</ol>
+											</td>
+										</tr>
+
+										<tr>
+											<th scope="row">2</th>
+											<td>Python数据类型</td>
+
+											<td>
+												<ol>
+													<li><a href="#" target="_blank">小鹅通</a></li>
+													<li><a href="#" target="_blank">51CTO</a></li>
+													<li><a href="#" target="_blank">CSDN</a></li>
+												</ol>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
+		</section>
+
+
+
+
+
+		<!-- 联系我们 -->
+		<section class="p-5">
+			<div class="container">
+				<h2 class="text-center">联系我们</h2>
+				<div>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">姓名：李晓华</li>
+						<li class="list-group-item">邮箱：chinapkulxh@pku.edu.cn</li>
+						<li class="list-group-item">手机：13240040269</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<footer class="p-5 bg-dark text-white text-center">
+			<div class="container">
+				<p class="lead">Copyright &copy; 2023 李晓华</p>
+			</div>
+		</footer>
+
+		<script src="./bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
 	</body>
 
 </html>
