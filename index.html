@@ -12,7 +12,7 @@
 	<body>
 
 		<!-- 导航部分 -->
-		<nav class="navbar navbar-expand-lg bg-primary text-light navbar-dark fixed-top">
+		<nav class="navbar navbar-expand-lg bg-primary text-white navbar-dark fixed-top">
 			<div class="container">
 				<!-- 左侧 logo -->
 				<a href="#" class="navbar-brand">技术蛙 · 顶呱呱</a>
@@ -23,12 +23,14 @@
 				<!-- 右侧展开的菜单 -->
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav ms-auto">
+						<li class="nav-item active"><a href="#enterprise" class="nav-link">企业培训</a></li>
 						<li class="nav-item active"><a href="#python" class="nav-link">Python</a></li>
 						<li class="nav-item"><a href="#" class="nav-link">Web开发</a></li>
 						<li class="nav-item"><a href="#" class="nav-link">爬虫</a></li>
 						<li class="nav-item"><a href="#" class="nav-link">数据分析</a></li>
 						<li class="nav-item"><a href="#" class="nav-link">机器学习</a></li>
 						<li class="nav-item"><a href="#" class="nav-link">深度学习</a></li>
+						<li class="nav-item"><a href="#we-media" class="nav-link">自媒体</a></li>
 					</ul>
 				</div>
 			</div>
@@ -101,80 +103,8 @@
 		</section>
 
 
-		<!-- 自媒体 -->
-		<section class="p-5 bg-primary">
-			<div class="container">
-				<h2 class="text-center text-light">自媒体</h2>
-				<p class="lead text-center text-white mb-5">
-					免费体验和合作洽谈
-				</p>
-				<div class="row g-4">
-
-					<div class="col-md-4 col-lg-2">
-						<div class="card bg-light">
-							<div class="card-body text-center">
-								<img src="./img/shipinhao.jpg" alt="" class="mb-3">
-								<h3 class="card-title">视频号</h3>
-								<p class="card-text">短视频</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4 col-lg-2">
-						<div class="card bg-light">
-							<div class="card-body text-center">
-								<img src="./img/douyin.jpg" alt="" class="mb-3">
-								<h3 class="card-title">抖音</h3>
-								<p class="card-text">短视频</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4 col-lg-2">
-						<div class="card bg-light">
-							<div class="card-body text-center">
-								<img src="./img/bilibili.jpg" alt="" class="mb-3">
-								<h3 class="card-title">B站</h3>
-								<p class="card-text">长视频</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4 col-lg-2">
-						<div class="card bg-light">
-							<div class="card-body text-center">
-								<img src="./img/gongzhonghao.jpg" alt="" class="mb-3">
-								<h3 class="card-title">公众号</h3>
-								<p class="card-text">图文</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4 col-lg-2">
-						<div class="card bg-light">
-							<div class="card-body text-center">
-								<img src="./img/xiaoetong.jpg" alt="" class="mb-3">
-								<h3 class="card-title">小鹅通</h3>
-								<p class="card-text">在线课程</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-lg-2">
-						<div class="card bg-light">
-							<div class="card-body text-center">
-								<img src="./img/hezuo.jpg" alt="" class="mb-3">
-								<h3 class="card-title">微信</h3>
-								<p class="card-text">合作洽谈</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-
 		<!-- 企业内训 -->
-		<section class="p-5 bg-secondary">
+		<section class="p-5 bg-secondary" id="enterprise">
 			<div class="container">
 				<h2 class="text-center text-white">企业内训（部分案例）</h2>
 				<div class="accordion accordion-flush bg-secondary" id="accordionFlushExampleEnterprise">
@@ -742,7 +672,6 @@
 			<div class="container">
 				<h2 class="text-center text-white">Python 编程</h2>
 				<div class="accordion accordion-flush bg-secondary" id="pythonExample">
-
 					<!-- 1 课程大纲 -->
 					<div class="accordion-item">
 						<h2 class="accordion-header">
@@ -810,7 +739,8 @@
 						<div id="flush-collapse-python-2" class="accordion-collapse collapse"
 							data-bs-parent="#pythonExample">
 							<div class="accordion-body">
-								<div class="table-responsive">
+								<h6 class="text-danger switch-show d-md-none">内容较多，请登录电脑查看 ^_^</h6>
+								<div class="table-responsive d-md-block switch-disappear">
 									<table class="table  table-hover">
 										<thead>
 											<tr class="text-center bg-primary text-light">
@@ -875,7 +805,8 @@
 						<div id="flush-collapse-python-3" class="accordion-collapse collapse"
 							data-bs-parent="#pythonExample">
 							<div class="accordion-body">
-								<div class="table-responsive">
+								<h6 class="text-danger switch-show d-md-none">内容较多，请登录电脑查看 ^_^</h6>
+								<div class="table-responsive  d-md-block switch-disappear">
 									<table class="table  table-hover">
 										<thead>
 											<tr class="text-center bg-primary text-light">
@@ -936,8 +867,8 @@
 						<div id="flush-collapse-python-4" class="accordion-collapse collapse"
 							data-bs-parent="#pythonExample">
 							<div class="accordion-body">
-								<div class="table-responsive">
-
+								<h6 class="text-danger switch-show d-md-none">内容较多，请登录电脑查看 ^_^</h6>
+								<div class="table-responsive d-md-block switch-disappear">
 									<table class="table  table-hover">
 										<thead>
 											<tr class="text-center bg-primary text-light">
@@ -977,13 +908,85 @@
 
 								</div>
 
-
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+
+
+		<!-- 自媒体 -->
+		<section class="p-5 bg-primary" id="we-media">
+			<div class="container">
+				<h2 class="text-center text-light">自媒体</h2>
+				<p class="lead text-center text-white mb-5">
+					免费体验和合作洽谈
+				</p>
+				<div class="row g-4">
+
+					<div class="col-md-4 col-lg-2">
+						<div class="card bg-light">
+							<div class="card-body text-center">
+								<img src="./img/shipinhao.jpg" alt="" class="mb-3">
+								<h3 class="card-title">视频号</h3>
+								<p class="card-text">短视频</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-lg-2">
+						<div class="card bg-light">
+							<div class="card-body text-center">
+								<img src="./img/douyin.jpg" alt="" class="mb-3">
+								<h3 class="card-title">抖音</h3>
+								<p class="card-text">短视频</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-lg-2">
+						<div class="card bg-light">
+							<div class="card-body text-center">
+								<img src="./img/bilibili.jpg" alt="" class="mb-3">
+								<h3 class="card-title">B站</h3>
+								<p class="card-text">长视频</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-lg-2">
+						<div class="card bg-light">
+							<div class="card-body text-center">
+								<img src="./img/gongzhonghao.jpg" alt="" class="mb-3">
+								<h3 class="card-title">公众号</h3>
+								<p class="card-text">图文</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-lg-2">
+						<div class="card bg-light">
+							<div class="card-body text-center">
+								<img src="./img/xiaoetong.jpg" alt="" class="mb-3">
+								<h3 class="card-title">小鹅通</h3>
+								<p class="card-text">在线课程</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-2">
+						<div class="card bg-light">
+							<div class="card-body text-center">
+								<img src="./img/hezuo.jpg" alt="" class="mb-3">
+								<h3 class="card-title">微信</h3>
+								<p class="card-text">合作洽谈</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 
 
 		<!-- 联系我们 -->
@@ -1002,7 +1005,7 @@
 
 
 		<!-- 页脚 -->
-		<footer class="p-5 bg-dark text-white text-center">
+		<footer class="p-2 bg-dark text-white text-center">
 			<div class="container">
 				<p class="lead">Copyright &copy; 2023 李晓华</p>
 			</div>
