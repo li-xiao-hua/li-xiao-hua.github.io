@@ -4,12 +4,33 @@
 	}
 }
 
+.theme-red-background {
+	background-color: rgb(119, 4, 35) !important;
+}
+
+.theme-red-foreground {
+	color: rgb(119, 4, 35) !important;
+}
+
+
+body {
+	background: rgb(119, 4, 35);
+}
+
+.white {
+	background: rgb(255, 255, 255);
+}
+
 body::before {
 	display: block;
 	content: "";
 	height: 50px;
 }
 
+.spliter {
+	border-top: 5px solid darkgray !important; 
+	padding-top: 30px !important;
+}
 
 /* Medium */
 @media screen and (max-width:768px) {
