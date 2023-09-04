@@ -1,11 +1,33 @@
 @media (min-width: 768px) {
-    .new-input {
-        width: 50%;
-    }
+	.new-input {
+		width: 50%;
+	}
 }
 
 body::before {
-    display: block;
-    content: "";
-    height: 50px;
+	display: block;
+	content: "";
+	height: 50px;
 }
+
+
+/* Medium */
+@media screen and (max-width:768px) {
+	/* 低于 Medium 消失 */
+	.switch-disappear {
+		display: none;
+	}
+	/* 低于 Medium 显示 */
+	.switch-show {
+		display: block;
+	}
+	
+	.clear_padding {
+		padding: 0px;
+	}
+	
+	.reset_margin: {
+		margin: 120px 0px 0px 0px !important;
+	}
+}
+
