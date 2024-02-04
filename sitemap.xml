@@ -41,6 +41,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://www.xxxx.com/python_env/</loc>
+         <lastmod>2024-02-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://www.xxxx.com/wangzhixin/</loc>
          <lastmod>2024-02-04</lastmod>
          <changefreq>daily</changefreq>
