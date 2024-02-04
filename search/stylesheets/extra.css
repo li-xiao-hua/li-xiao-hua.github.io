@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "微软雅黑";
+    src: "../assets/MSYH.TTC";
+  }
+
+:root {
+    --md-text-font: "微软雅黑"; 
+  }
