@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://li-xiao-hua.github.io/llm_agent/</loc>
+         <lastmod>2024-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://li-xiao-hua.github.io/llm_architecture/</loc>
          <lastmod>2024-12-28</lastmod>
          <changefreq>daily</changefreq>
@@ -21,7 +26,42 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://li-xiao-hua.github.io/llm_deploy/</loc>
+         <lastmod>2024-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://li-xiao-hua.github.io/llm_fine_tune/</loc>
+         <lastmod>2024-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://li-xiao-hua.github.io/llm_prompt/</loc>
+         <lastmod>2024-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://li-xiao-hua.github.io/llm_rag/</loc>
+         <lastmod>2024-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://li-xiao-hua.github.io/mllm/</loc>
+         <lastmod>2024-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://li-xiao-hua.github.io/training_courses/</loc>
+         <lastmod>2024-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://li-xiao-hua.github.io/training_customers/</loc>
+         <lastmod>2024-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://li-xiao-hua.github.io/training_pictures/</loc>
          <lastmod>2024-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
