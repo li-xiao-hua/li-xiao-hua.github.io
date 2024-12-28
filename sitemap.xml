@@ -1,43 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://www.xxxx.com/</loc>
-         <lastmod>2024-02-04</lastmod>
+         <loc>https://li-xiao-hua.github.io/</loc>
+         <lastmod>2024-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.xxxx.com/contact/</loc>
-         <lastmod>2024-02-04</lastmod>
+         <loc>https://li-xiao-hua.github.io/llm_architecture/</loc>
+         <lastmod>2024-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.xxxx.com/learning_materials/python_materials/python_env/</loc>
-         <lastmod>2024-02-04</lastmod>
+         <loc>https://li-xiao-hua.github.io/llm_basics/</loc>
+         <lastmod>2024-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.xxxx.com/team/lixiaohua/</loc>
-         <lastmod>2024-02-04</lastmod>
+         <loc>https://li-xiao-hua.github.io/llm_benchmark/</loc>
+         <lastmod>2024-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.xxxx.com/team/wangzhixin/</loc>
-         <lastmod>2024-02-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.xxxx.com/team/yangguanglin/</loc>
-         <lastmod>2024-02-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.xxxx.com/training_courses/ai/</loc>
-         <lastmod>2024-02-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.xxxx.com/training_courses/da/</loc>
-         <lastmod>2024-02-04</lastmod>
+         <loc>https://li-xiao-hua.github.io/llm_fine_tune/</loc>
+         <lastmod>2024-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
