@@ -2,67 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://li-xiao-hua.github.io/</loc>
-         <lastmod>2024-12-28</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-15</lastmod>
     </url>
     <url>
-         <loc>https://li-xiao-hua.github.io/llm_agent/</loc>
-         <lastmod>2024-12-28</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://li-xiao-hua.github.io/computer_vision/</loc>
+         <lastmod>2025-01-15</lastmod>
     </url>
     <url>
-         <loc>https://li-xiao-hua.github.io/llm_architecture/</loc>
-         <lastmod>2024-12-28</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://li-xiao-hua.github.io/deep_learning/</loc>
+         <lastmod>2025-01-15</lastmod>
     </url>
     <url>
-         <loc>https://li-xiao-hua.github.io/llm_basics/</loc>
-         <lastmod>2024-12-28</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://li-xiao-hua.github.io/machine_learning/</loc>
+         <lastmod>2025-01-15</lastmod>
     </url>
     <url>
-         <loc>https://li-xiao-hua.github.io/llm_benchmark/</loc>
-         <lastmod>2024-12-28</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://li-xiao-hua.github.io/natural_language_processing/</loc>
+         <lastmod>2025-01-15</lastmod>
     </url>
     <url>
-         <loc>https://li-xiao-hua.github.io/llm_deploy/</loc>
-         <lastmod>2024-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://li-xiao-hua.github.io/llm_fine_tune/</loc>
-         <lastmod>2024-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://li-xiao-hua.github.io/llm_prompt/</loc>
-         <lastmod>2024-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://li-xiao-hua.github.io/llm_rag/</loc>
-         <lastmod>2024-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://li-xiao-hua.github.io/mllm/</loc>
-         <lastmod>2024-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://li-xiao-hua.github.io/training_courses/</loc>
-         <lastmod>2024-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://li-xiao-hua.github.io/training_customers/</loc>
-         <lastmod>2024-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://li-xiao-hua.github.io/training_pictures/</loc>
-         <lastmod>2024-12-28</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://li-xiao-hua.github.io/python_programming/</loc>
+         <lastmod>2025-01-15</lastmod>
     </url>
 </urlset>
